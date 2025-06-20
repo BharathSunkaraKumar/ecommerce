@@ -1,5 +1,41 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
+Tech Stack
+Frontend: Next.js, TypeScript, TailwindCSS, Shadcn/UI
+
+Payments: Stripe
+
+📖 Overview
+This is a modern e-commerce web application built with Next.js and styled using TailwindCSS. It features:
+
+A responsive landing page with a hero section and image carousel
+
+A products page that dynamically displays product data fetched from Stripe
+
+A product details page with:
+
+Product info
+
+Quantity increment/decrement buttons
+
+Add to cart functionality
+
+A shopping cart view with:
+
+Real-time cart quantity shown in the navbar
+
+Checkout page showing product names, quantities, and total amount
+
+💳 Stripe Payment Integration
+Users can proceed to a secure Stripe checkout page to complete their payment using real card details (in test mode).
+
+🎓 Learning Experience
+This project is based on a tutorial by PedroTech. I followed the entire video and implemented the project on my own. Through this, I learned:
+
+How to build real-world projects using Next.js and TypeScript
+
+How to integrate Stripe payment processing
+
 ## Getting Started
 
 First, run the development server:
